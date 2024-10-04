@@ -5,4 +5,5 @@ Grace à canplayer je lancais mes differents fichier pour savoir lequel contenai
 A chaque fois je gardais le fichier qui contenanit l'ID.
 J'ai continué de le faire jusqu'a avoir un fichier qui ne contenanit qu'une ligne.
 Je sais que j'aurais pu faire un script qui aurait automatiser la demarche mais j'aimais bien le faire a la main.
+![image](https://github.com/user-attachments/assets/224cabfa-4aa2-49b4-ad97-fb6495850757)
 
