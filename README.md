@@ -7,7 +7,14 @@ _**./controls vcan0**_
 _**./iscim vcan0**_  
 Nous pouvons lancer un candump qui va venir récupérer tous les messsages CAN générer par notre interface, notre manette.  
 _**candump vcan0**_  
- 
+Une fois le candump générer nous allons diviser le fichier pour pouvoir analyser par plus petit bloque nos log. On commencer par savoir combien de ligne comporte notre fichier.  
+_**xc -l "nomdufichier.log"**_  
+Puis on le divise.  
+_**split -l "nombre de ligne voulu par fichier" "nomdufichier.log" "nomdessousfichier.log"**_  
+Et on finit par rejouer les fichiers pour analyser l'action qu'il a sur notre interface icsim.
+_**canplayer -I "nomdufichier.log"**_    
+Il nous suffit a chaque fois de garder le fichier qui contient la trame d'ouverture des portes.  
+
 J'ai créé mon candump et de la je l'ai split.
 Grace à canplayer je lancais mes differents fichier pour savoir lequel contenait l'ID pour l'ouverture de porte.
 A chaque fois je gardais le fichier qui contenanit l'ID.
