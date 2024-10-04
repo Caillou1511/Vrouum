@@ -5,5 +5,11 @@ Grace à canplayer je lancais mes differents fichier pour savoir lequel contenai
 A chaque fois je gardais le fichier qui contenanit l'ID.
 J'ai continué de le faire jusqu'a avoir un fichier qui ne contenanit qu'une ligne.
 Je sais que j'aurais pu faire un script qui aurait automatiser la demarche mais j'aimais bien le faire a la main.
-![image](https://github.com/user-attachments/assets/224cabfa-4aa2-49b4-ad97-fb6495850757)
+![Capture d'écran 2024-10-03 214521](https://github.com/user-attachments/assets/21bf2e36-53a2-4cd8-97df-066fbb35f328)
+![Capture d'écran 2024-10-03 214545](https://github.com/user-attachments/assets/142321f4-7807-4dbc-bd44-a59a7f0b9ce4)
+![Capture d'écran 2024-10-03 214606](https://github.com/user-attachments/assets/a640e6d6-3688-4dd0-9597-a16fafebf7b3)
 
+## Script python
+Une fois l'ID trouvé il sufisait de faire un script qui allait envoyé un message au bus can. Le message etant celui d'ouvrir la porte grace a son ID.
+
+![Capture d'écran 2024-10-04 135350](https://github.com/user-attachments/assets/8f1d82d1-dfbc-45ec-b017-99f0c32b6f52)
