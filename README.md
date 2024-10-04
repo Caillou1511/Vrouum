@@ -1,5 +1,13 @@
 # Vrouum
+## Objectif
+Compromettre le système de la voiture grâce à un script python. 
 ## Trouver l'ID
+Une fois toutes les interfaces lancée.
+_**./controls vcan0**_
+_**./iscim vcan0**_
+Nous pouvons lancer un candump qui va venir récupérer tous les messsages CAN générer par notre interface, notre manette.
+_**candump vcan0**_
+
 J'ai créé mon candump et de la je l'ai split.
 Grace à canplayer je lancais mes differents fichier pour savoir lequel contenait l'ID pour l'ouverture de porte.
 A chaque fois je gardais le fichier qui contenanit l'ID.
