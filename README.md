@@ -11,15 +11,12 @@ Une fois le candump générer nous allons diviser le fichier pour pouvoir analys
 _**xc -l "nomdufichier.log"**_  
 Puis on le divise.  
 _**split -l "nombre de ligne voulu par fichier" "nomdufichier.log" "nomdessousfichier.log"**_  
-Et on finit par rejouer les fichiers pour analyser l'action qu'il a sur notre interface icsim.
+Et on finit par rejouer les fichiers pour analyser l'action qu'il a sur notre interface icsim.  
 _**canplayer -I "nomdufichier.log"**_    
-Il nous suffit a chaque fois de garder le fichier qui contient la trame d'ouverture des portes.  
+Il nous suffit à chaque fois de garder le fichier qui contient la trame d'ouverture des portes.  
+  
+Il faut réitérer l'action jusqu'a se retrouver avec un fichier ne contenant qu'une seule ligne. Il est possible de faire un scripte pour automatiser le process mais j'ai voulu le faire à la main.
 
-J'ai créé mon candump et de la je l'ai split.
-Grace à canplayer je lancais mes differents fichier pour savoir lequel contenait l'ID pour l'ouverture de porte.
-A chaque fois je gardais le fichier qui contenanit l'ID.
-J'ai continué de le faire jusqu'a avoir un fichier qui ne contenanit qu'une ligne.
-Je sais que j'aurais pu faire un script qui aurait automatiser la demarche mais j'aimais bien le faire a la main.
 ![Capture d'écran 2024-10-03 214521](https://github.com/user-attachments/assets/21bf2e36-53a2-4cd8-97df-066fbb35f328)
 ![Capture d'écran 2024-10-03 214545](https://github.com/user-attachments/assets/142321f4-7807-4dbc-bd44-a59a7f0b9ce4)
 ![Capture d'écran 2024-10-03 214606](https://github.com/user-attachments/assets/a640e6d6-3688-4dd0-9597-a16fafebf7b3)
