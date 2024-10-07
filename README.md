@@ -22,6 +22,6 @@ Il faut réitérer l'action jusqu'a se retrouver avec un fichier ne contenant qu
 ![Capture d'écran 2024-10-03 214606](https://github.com/user-attachments/assets/a640e6d6-3688-4dd0-9597-a16fafebf7b3)
 
 ## Script python
-Une fois l'ID
+Une fois le log trouvé il faut exploiter la vulnérabilité. Pour cela il faut faire un script python qui va venir envoyer un message can. Ce message comportera l'ID et les données associé pour ouvrir les portes. 
 
 ![Capture d'écran 2024-10-04 135350](https://github.com/user-attachments/assets/8f1d82d1-dfbc-45ec-b017-99f0c32b6f52)
